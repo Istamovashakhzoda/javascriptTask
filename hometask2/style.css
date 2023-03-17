@@ -1,0 +1,90 @@
+ @font-face {
+  font-family: Regular;
+  src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+
+*{
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  height: 500px;
+  justify-content: center;
+  font-family: Regular;
+  background-color: darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container{
+  width:950px;
+  height: 400px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.status img{
+  width: 90px;
+  height: 80px;
+  border-radius: 18px;
+}
+
+.container h1{
+  font-size: 40px;
+  font-weight: 120px;
+  font-family: Regular;
+  text-align: center;
+  padding:0 15px;
+  font-style: italic;
+}
+
+.status{
+  width: 100%;
+  height:350px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: darkslateblue;
+}
+
+.status div{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+  font-style: italic;
+}
+
+.status div .spn{
+  font-size: 30px;
+  color: lightsalmon;
+}
+
+.status div p{
+  font-size: 30px;
+  color: lightsalmon;
+  font-weight: 300px;
+}
+
+.status div p::before{
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  left: 50%;
+  bottom: -10px;
+  transform: translate(-50%);
+  background-color: lightsalmon;
+}
+
+
